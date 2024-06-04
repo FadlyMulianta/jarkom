@@ -1,0 +1,79 @@
+*{
+    color: black;
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "IBM Plex Serif", serif;
+    font-style: normal;
+
+}
+
+body{
+
+    width: 100%;
+    min-height: 100vh;
+    background-color: #8a96b3;
+}
+
+nav{
+    top: 1% ;
+    margin-top: 15px;
+    margin-left: 35px;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.content{
+    margin-left: 13%;
+    margin-top: 11%;
+}
+
+.nama{
+    font-weight:bold ;
+    font-size: 600%;
+    color: black;
+    margin: 1%;
+    
+
+
+}
+.nim{
+    font-size: 160%;
+    margin: 1%;
+
+}
+
+.foto{
+    width: 24%;
+    position: absolute;
+    right: 15%;
+    top: 25%;
+
+}
+.kucing{
+    width: 3%;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 60px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
